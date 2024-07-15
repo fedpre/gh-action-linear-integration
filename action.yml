@@ -1,0 +1,15 @@
+name: "Linear Integration"
+description: "Connects GitHub with linear for some custom integrations"
+inputs:
+  # linear-api-key:
+  #   description: "Your Linear API key"
+  #   required: true
+  who-to-greet:
+    description: "Your Linear API key"
+    required: true
+outputs:
+  time: # id of output
+    description: "The time we greeted you"
+runs:
+  using: "node20"
+  main: "index.js"
