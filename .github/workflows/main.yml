@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: fedpre/js-gh-action-linear@v0.1.1
+        uses: fedpre/gh-action-linear-integration@v0.1.1
         with:
           who-to-greet: "Federico first action"
       # Use the output from the `hello` step
